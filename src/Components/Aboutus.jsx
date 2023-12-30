@@ -7,7 +7,7 @@ export default function Aboutus() {
     <div>
 <div className="p-8 lg:flex items-center justify-between">
   <div className="lg:w-1/2 w-full">
-    <p className="text-base leading-4 text-gray-600">Choose your plan</p>
+    <h2 className="text-base leading-4 text-gray-600">About Us</h2>
     <h1 role="heading" className="md:text-5xl text-3xl font-bold leading-10 mt-3 text-gray-800">Our pricing plan</h1>
     <p role="contentinfo" className="text-base leading-5 mt-5 text-gray-600">We’re working on a suit of tools to make managing complex systems easier, for everyone for free. we can’t wait to hear what you think</p>
     <div className="w-56">
