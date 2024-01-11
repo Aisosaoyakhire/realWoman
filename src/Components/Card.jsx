@@ -49,7 +49,7 @@ export default function Card() {
           </div>
         </div>
       </div>
-      <div className="flex flex-wrap -mx-4">
+      <div className="flex flex-wrap -mx-4 p-6">
         <div className="w-full px-4 md:w-1/2 lg:w-1/3">
           <div className="w-full ">
             <div className="mb-6 pb-8 overflow-hidden rounded-full">
@@ -57,16 +57,15 @@ export default function Card() {
             </div>
             <div>
               <span className="inline-block px-4  mb-5 text-xs font-semibold leading-loose text-center rounded bg-primary">
-                Dec 22, 2023
+                Feb 22, 2024
               </span>
               <h3>
-                <a href="blogOne" className="inline-block mb-4 text-xl font-semibold text-dark dark:text-white hover:text-primary sm:text-2xl lg:text-xl xl:text-2xl">
-                  Meet AutoManage, the best AI management tools
+                <a href="https://kidshealth.org/en/parents/guide-parents.html#:~:text=Newborns%20don't%20have%20a,head%20when%20carrying%20your%20baby." className="inline-block mb-4 text-xl font-semibold text-dark dark:text-white hover:text-primary sm:text-2xl lg:text-xl xl:text-2xl">
+                A Guide for First-Time Parents
                 </a>
               </h3>
               <p className="text-base text-body-color dark:text-dark-6">
-                Lorem Ipsum is simply dummy text of the printing and
-                typesetting industry.
+              Life has changed now that your baby is here, and you might have lots of questions about what to do. These tips can help first-time parents feel confident about caring for a newborn in no time.
               </p>
             </div>
           </div>
@@ -78,16 +77,15 @@ export default function Card() {
             </div>
             <div>
              <span className="inline-block px-4  mb-5 text-xs font-semibold leading-loose text-center rounded bg-primary">
-                Dec 22, 2023
+                Feb 22, 2024
               </span>
               <h3>
-                <a href="blogOne" className="inline-block mb-4 text-xl font-semibold text-dark dark:text-white hover:text-primary sm:text-2xl lg:text-xl xl:text-2xl">
-                  Meet AutoManage, the best AI management tools
+                <a href="https://www.americanadoptions.com/pregnant/1-month-pregnant#:~:text=If%20you%20are%20one%2C%20two,including%20adoption%2C%20abortion%20and%20parenting." className="inline-block mb-4 text-xl font-semibold text-dark dark:text-white hover:text-primary sm:text-2xl lg:text-xl xl:text-2xl">
+                Unplanned Pregnancy in the First Month (What are My Options?)
                 </a>
               </h3>
               <p className="text-base text-body-color dark:text-dark-6">
-                Lorem Ipsum is simply dummy text of the printing and
-                typesetting industry.
+              Whether you are two weeks pregnant and don’t want a baby or four weeks pregnant and don’t want it, this guide to your options in the first month of an unplanned pregnancy will give you the guidance you need to get started.
               </p>
             </div>
           </div>
@@ -99,16 +97,15 @@ export default function Card() {
             </div>
             <div>
               <span className="inline-block px-4  mb-5 text-xs font-semibold leading-loose text-center rounded bg-primary">
-                Dec 22, 2023
+                Feb 22, 2024
               </span>
               <h3>
-                <a href="blogOne" className="inline-block mb-4 text-xl font-semibold text-dark dark:text-white hover:text-primary sm:text-2xl lg:text-xl xl:text-2xl">
-                  Meet AutoManage, the best AI management tools
+                <a href="https://kidshealth.org/en/parents/guide-parents.html" className="inline-block mb-4 text-xl font-semibold text-dark dark:text-white hover:text-primary sm:text-2xl lg:text-xl xl:text-2xl">
+                A Guide for First-Time Parents
                 </a>
               </h3>
               <p className="text-base text-body-color dark:text-dark-6">
-                Lorem Ipsum is simply dummy text of the printing and
-                typesetting industry.
+              Life has changed now that your baby is here, and you might have lots of questions about what to do. These tips can help first-time parents feel confident about caring for a newborn in no time.
               </p>
             </div>
           </div>

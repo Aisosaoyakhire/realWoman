@@ -1,51 +1,56 @@
 
 import React from 'react';
-import motherchild from "../Components/motherchild.webp";
+import aisosaO from "../Components/aisosaO.jpg";
 
 export default function Aboutus() {
     return (
     <div>
-<div className="p-8 lg:flex items-center justify-between">
-  <div className="lg:w-1/2 w-full">
-    <h2 className="text-base leading-4 text-gray-600">About Us</h2>
-    <h1 role="heading" className="md:text-5xl text-3xl font-bold leading-10 mt-3 text-gray-800">Our pricing plan</h1>
-    <p role="contentinfo" className="text-base leading-5 mt-5 text-gray-600">We’re working on a suit of tools to make managing complex systems easier, for everyone for free. we can’t wait to hear what you think</p>
-    <div className="w-56">
-      <button onclick="toggleIt()" className="bg-gray-100 shadow rounded-full flex items-center mt-10 rounded-full">
-        <div className="bg-gray-100 focus:ring-2 focus:ring-offset-2 focus:ring-blue-950 focus:outline-none text-base leading-none text-gray-600 rounded-full py-4 px-6 mr-1" id="monthly">Monthly</div>
-        <div className="bg-blue-950 focus:ring-2 focus:ring-offset-2 focus:ring-blue-950 focus:outline-none text-base leading-none text-white rounded-full py-4 px-6" id="annually">Annually</div>
-      </button>
-    </div>
+ 
+<div
+  class=" flex rounded-lg w-full bg-white gap-[-50px] shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
+  <div class="relative overflow-hidden bg-cover bg-no-repeat">
+    <img
+      class=" w-1/2 p-6"
+      src={aisosaO}
+      alt="Aisosa" />
   </div>
-  <div className="xl:w-1/2 lg:w-7/12 relative w-full lg:mt-0 mt-12 md:px-8" role="list">
-    <img src="https://i.ibb.co/0n6DSS3/bgimg.png" className="absolute w-full -ml-12 mt-24" alt="background circle images" />
-    <div role="listitem" className="bg-white cursor-pointer shadow rounded-lg p-8 relative z-30">
-      <div className="md:flex items-center justify-between">
-        <h2 className="text-2xl font-semibold leading-6 text-gray-800">Starter</h2>
-        <p className="text-2xl font-semibold md:mt-0 mt-4 leading-6 text-gray-800">FREE</p>
-      </div>
-      <p className="md:w-80 text-base leading-6 mt-4 text-gray-600">Full access to all features and no credit card required</p>
-    </div>
-    <div role="listitem" className="bg-white cursor-pointer shadow rounded-lg mt-3 flex relative z-30">
-      <div className="w-2.5 h-auto bg-blue-950 rounded-tl-md rounded-bl-md" />
-      <div className="w-full p-8">
-        <div className="md:flex items-center justify-between">
-          <h2 className="text-2xl font-semibold leading-6 text-gray-800">Personal</h2>
-          <p className="text-2xl md:mt-0 mt-4 font-semibold leading-6 text-gray-800"><span className="font-normal text-base">/mo</span></p>
-        </div>
-        <p className="md:w-80 text-base leading-6 mt-4 text-gray-600">Unlimited products features and dedicated support channels</p>
-      </div>
-    </div>
-    <div role="listitem" className="bg-white cursor-pointer shadow rounded-lg p-8 relative z-30 mt-7">
-      <div className="md:flex items-center justify-between">
-        <h2 className="text-2xl font-semibold leading-6 text-gray-800">Team</h2>
-        <p className="text-2xl md:mt-0 mt-4 font-semibold leading-6 text-gray-800"><span className="font-normal text-base">/mo</span></p>
-      </div>
-      <p className="md:w-80 text-base leading-6 mt-4 text-gray-600">Unlimited products features and dedicated support channels</p>
-    </div>
-  </div>
-</div>
+  <div class="p-6 w-1/2">
+  <h1 class="text-center text-xl"><span><b>Our Mission</b></span></h1>
+    <p class=" text-neutral-600 text-lg dark:text-neutral-200 mt-6">
+    
+RealWoman was started because, as counter-intuitive as it may seem, motherhood is not a natural instinct for many (many) women.
+
+Rather, connectedness is a new mom’s first instinct. And, with non-judgmental support and advice from other moms and parenting professionals, we try to help women embrace motherhood with confidence.
+
+As with everything, we all still have lots of questions and believe that there are no easy answers in parenting. You’ll often find us engaged in conversations either seeking or providing advice, all while trying to raise happy and healthy children.
+
+Parenthood is rewarding, but we all know it's not always easy—and it definitely comes with a lot of questions. Since 1926, Parents has been committed to supporting caregivers through every step of the parenting journey—from those big life decisions to the memory-making moments.
+
+Our team of editors, writers, and experts have seen it all and many of us are parents, too. We recognize that parenthood is constantly evolving. That's why it's important that we continue to be your source for information that is always up-to-date, accurate, and practical.</p>
 
 </div>
+</div>
+
+ <div class="text-lg p-6"><p>Our goal is to lighten your load and, whenever possible, give you a reason to laugh.
+
+At realwoman, you'll find real-talk on pregnancy and childhood milestones, judgment-free advice that empowers and supports you at every stage of the journey, and important conversations on mental health, family dynamics, and what it means to be a parent in these challenging times.
+
+It's no wonder our community of 9 million caregivers a month comes to us for our comprehensive, inclusive, and honest parenting content. You can rely on Parents to give you the knowledge you need to make the best decisions for your family.
+    </p>
+    <h1 class="text-xlg"><b>Core Values</b></h1>
+    <p>The values we share at Parents inspire the content we create and reflect our commitment to caregivers from all walks of life. They are at the heart of everything we do.</p>
+
+<p><b>Empathy:</b> We see, hear, and understand you and constantly reflect on ways to do better by everyone who comes to us.</p>
+<p><b>Inclusivity:</b> We value diverse voices, experiences, and perspectives, and appreciate our differences as well as the common threads that unite us.</p>
+<p><b>Connection:</b> We believe in the power of community to uplift in tough times, find the funny during the in-between times, and band together to create positive change.  </p>
+<p> <b>Honesty : </b>We recognize the magical and messy parts of parenting, taking a non-judgmental approach to everything we do. </p>
+<p><b>Guidance:</b> We deliver expert-vetted advice and real-world solutions that are easy to understand, lighten your load, and make you feel supported as you make the best decisions for your family with more assurance and less stress.</p>
+<p><b>Kindness:</b> We stand up for kindness and compassion in a world that can often feel divided.</p>
+<p><b>Dependability:</b> We continue to evolve since our launch in 1926, making sure to stay ahead of the shifting parenting landscape as we build on the trust you have always shown us.</p>
+</div>
+ 
+</div>
+
+
  );
 }
